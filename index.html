@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>rdbo website</title>
+	<meta name="author" content="rdbo"/>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+</head>
+
+<body>
+	<div class="navbar">
+		<ul>
+			<li id="home-icon"><a href="index.html"></a></li>
+			<li class="navbar-text"><a href="contact.html">contact</a></li>
+			<li class="navbar-text"><a href="about.html">about</a></li>
+		</ul>
+	</div>
+
+	<div class="text">
+		<p class="code-text">
+			website:<br/>
+			push    ebp {__saved_ebp}<br/>
+			mov     ebp, esp {__saved_ebp}<br/>
+			sub     esp, 0xc0<br/>
+			push    ebx {var_c8}<br/>
+			push    esi {var_cc}<br/>
+			push    edi {var_d0}<br/>
+			lea     edi, [ebp-0xc0 {var_c4}]<br/>
+			mov     ecx, 0x30<br/>
+			mov     eax, 0xcccccccc<br/>
+			rep stosd dword [edi]  {0x0}  {0xcccccccc}  {0xcccccccc}<br/>
+			mov     ecx, data_41f009<br/>
+			call    sub_41127b<br/>
+			mov     esi, esp {var_d0}<br/>
+			push    sub_4112a8 {var_d4}<br/>
+			push    ??_C@_0BG@GIPDOGPM@Welcome?5to?5my?5website@ {var_d8}  {"Welcome to my website"}<br/>
+			mov     eax, dword [std::cout@IAT]<br/>
+			push    eax {var_dc}<br/>
+			call    sub_41120d<br/>
+			add     esp, 0x8<br/>
+			mov     ecx, eax<br/>
+			call    dword [std::basic_ostream<char,...::char_traits<char> >::operator<<@IAT]<br/>
+			cmp     esi {var_d0}, esp {var_d4}<br/>
+			call    sub_411285<br/>
+			pop     edi {var_d4}<br/>
+			pop     esi {var_d0}<br/>
+			pop     ebx {var_cc}<br/>
+			add     esp, 0xc0<br/>
+			cmp     ebp {__saved_ebp}, esp {var_8}<br/>
+			call    sub_411285<br/>
+			mov     esp, ebp<br/>
+			pop     ebp {__saved_ebp}<br/>
+			retn     {__return_addr}<br/>
+		</p>
+	</div>
+</body>
+</html>

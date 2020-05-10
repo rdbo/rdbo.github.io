@@ -1,0 +1,88 @@
+.navbar ul
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	list-style-type: none;
+  	margin: 0;
+	padding: 0;
+	border: 0;
+	overflow: hidden;
+	background-color: #272727
+}
+
+.navbar li
+{
+	float: right;
+}
+
+.navbar li a
+{
+	font-size: 25px;
+	display: block;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-align: center;
+	color: red;
+}
+
+#home-icon
+{
+	float: left;
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+	margin-top: 5px;
+	background-image: url(../icons/home_icon.svg)
+}
+
+#github-icon
+{
+	float: left;
+	width: 40px;
+	height: 40px;
+	background-image: url(../icons/github_icon.svg)	
+}
+
+#twitter-icon
+{
+	float: left;
+	width: 40px;
+	height: 40px;
+	background-image: url(../icons/twitter_icon.svg)	
+}
+
+.text
+{
+	padding-top: 20px;
+	font-size: 18px;
+}
+
+.code-text
+{
+	color: #40FF40;
+}
+
+.code-text-string
+{
+	color: #FF9600;
+}
+
+.icon-list li
+{
+	width: 40px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.icon-list li a
+{
+	display: block;
+}
+
+body
+{
+	font-family: Consolas, Roboto, Arial;
+	background-color: black;
+}
