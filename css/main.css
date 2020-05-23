@@ -1,88 +1,212 @@
-.navbar ul
+/*Page Container*/
+
+.page-container
 {
-	position: fixed;
-	top: 0;
-	left: 0;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+	padding: 0px;
 	width: 100%;
-	list-style-type: none;
-  	margin: 0;
-	padding: 0;
-	border: 0;
-	overflow: hidden;
-	background-color: #272727
+	height: 100%;
 }
 
-.navbar li
+/*Page Author*/
+
+.page-container .page-author
 {
+	width: 25vw;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+}
+
+.page-container .page-author .page-author-container
+{
+	padding-top: 30%;
+	background-color: black;
+}
+
+.page-container .page-author .page-author-container .author-img
+{
+	width: 50%;
+	height: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 100%;
+}
+
+.page-container .page-author .page-author-container .author-info
+{
+	font-size: 2vw;
+	text-align: center;
+}
+
+.page-container .page-author .page-author-container .author-contact
+{
+
+}
+
+.page-container .page-author .page-author-container .author-contact .contact-list
+{
+
+}
+
+.page-container .page-author .page-author-container .author-contact .contact-list .contact-list-item
+{
+	display: inline;
+	list-style-type: none;
+}
+
+.page-container .page-author .page-author-container .author-contact .contact-list .contact-list-item .contact-img
+{
+	width: 15%;
+	height: 15%;
+	border-radius: 100%;
+}
+
+/*Page Main*/
+
+.page-container .page-main
+{
+	width: 75vw;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 25vw;
+	margin: 0px;
+	padding: 0px;
+	background-color: #181818;
 	float: right;
 }
 
-.navbar li a
+.page-container .page-main .page-home-container
 {
-	font-size: 25px;
-	display: block;
-	padding: 10px 25px;
-	text-decoration: none;
+	
+}
+
+.page-container .page-main .page-home-container .home-title
+{
+	font-size: 5vw;
 	text-align: center;
+}
+
+.page-container .page-main .page-home-container .home-post-list
+{
+	
+}
+
+.page-container .page-main .page-home-container .home-post-list .post-list
+{
+	
+}
+
+.page-container .page-main .page-home-container .home-post-list .post-list .post-item
+{
+	font-size: 1.75vw;
+}
+
+.page-container .page-main .page-home-container .home-post-list .post-list .post-item a
+{
+	text-decoration: none;
+}
+
+.page-container .page-main .page-post-container
+{
+	padding-top: 4vh;
+}
+
+.page-container .page-main .page-post-container .post-title
+{
+	font-size: 3vw;
+	text-align: center;
+}
+
+.page-container .page-main .page-post-container .post-text
+{
+	font-size: 1.5vw;
+	text-align: center;
+}
+
+/*Global*/
+
+.color-white
+{
+	color: white;
+}
+
+.color-red
+{
 	color: red;
 }
 
-#home-icon
+.font-default
 {
-	float: left;
-	width: 30px;
-	height: 30px;
-	margin-left: 10px;
-	margin-top: 5px;
-	background-image: url(../icons/home_icon.svg)
+	font-family: Consolas, Roboto, Arial;
 }
 
-#github-icon
+.font-post
 {
-	float: left;
-	width: 40px;
-	height: 40px;
-	background-image: url(../icons/github_icon.svg)	
+	font-family: Helvetica, Roboto, Arial;
 }
 
-#twitter-icon
-{
-	float: left;
-	width: 40px;
-	height: 40px;
-	background-image: url(../icons/twitter_icon.svg)	
+/*Animations*/
+
+.fade-in {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }
 
-.text
-{
-	padding-top: 20px;
-	font-size: 18px;
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }
 
-.code-text
-{
-	color: #40FF40;
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }
 
-.code-text-string
-{
-	color: #FF9600;
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }
 
-.icon-list li
-{
-	width: 40px;
-	padding: 10px;
-	margin: 10px;
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
 }
 
-.icon-list li a
-{
-	display: block;
-}
+/*HTML*/
 
 body
 {
-	font-family: Consolas, Roboto, Arial;
 	background-color: black;
 }
