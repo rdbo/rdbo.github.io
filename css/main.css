@@ -82,6 +82,24 @@
 	float: right;
 }
 
+.page-container .page-main .page-home-btn
+{
+	padding: 0;
+	margin: 0;
+}
+
+.page-container .page-main .page-home-btn .home-btn
+{
+	font-size: 1.5vw;
+	background-color: #181818;
+	border: 0;
+}
+
+.page-container .page-main .page-home-btn .home-btn:hover
+{
+	cursor: pointer;
+}
+
 .page-container .page-main .page-home-container
 {
 	
@@ -128,6 +146,27 @@
 {
 	font-size: 1.5vw;
 	text-align: center;
+}
+
+.page-container .page-main .page-post-container .list-container
+{
+
+}
+
+.page-container .page-main .page-post-container .list-container .list
+{
+
+}
+
+.page-container .page-main .page-post-container .list-container .list-item
+{
+
+}
+
+.page-container .page-main .page-post-container .list-container .list-item a
+{
+	text-decoration: none;
+	font-size: 1.5vw;
 }
 
 /*Global*/
