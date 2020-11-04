@@ -1,0 +1,40 @@
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #ff5050;
+}
+
+#author {
+  padding-top: 20px;
+  background: #101010;
+}
+
+#content {
+  padding-top: 20px;
+  background: #0b0b0b;
+}
+
+#content div a:hover {
+  cursor: pointer;
+  color: #ff6060;
+}
+
+#content #menu-list i {
+  color: #ff3535;
+  font-size: 48px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+#project-list li {
+  color: #0085ff;
+  font-size: 20px;
+}
+
+#icon-list a {
+  font-size: 72px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #ff3535;
+  text-decoration: none;
+}
+

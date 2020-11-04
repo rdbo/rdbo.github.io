@@ -1,50 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html style="height: 100%;width: 100%;">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>github_website</title>
+    <title>rdbo's github website</title>
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/rdbo.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/rdbo.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/rdbo.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/rdbo.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/rdbo.png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu+Mono">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body style="font-family: Ubuntu;background: rgb(0,0,0);">
-    <nav class="navbar navbar-light navbar-expand-md sticky-top" id="main-navbar" style="font-family: Ubuntu Mono;background: #0e0c0c;opacity: 0.80;">
-        <div class="container-fluid"><a class="navbar-brand" href="index.html" style="color: rgba(255,60,60,0.9);">home</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+<body style="font-family: Ubuntu;background: rgb(0,0,0);height: 100%;width: 100%;">
+    <nav class="navbar navbar-light navbar-expand-md sticky-top" id="main-nav" style="background: #1b1b1b;opacity: 0.80;width: 100%;">
+        <div class="container-fluid"><a class="navbar-brand" href="index.html" style="color: #ff5050;"><strong>home</strong></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" style="background: #303030;border: 2px solid rgba(255,255,255,0.5) ;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div
                 class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav">
-                    <li class="nav-item"><a class="nav-link active" href="projects.html" style="color: rgba(255,60,60,0.9);">projects</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="about.html" style="color: rgba(255,60,60,0.9);">about</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="projects.html">projects</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">about</a></li>
                 </ul>
         </div>
         </div>
     </nav>
-    <section class="text-center" id="author" style="padding-top: 50px;background: #151414;padding-bottom: 50px;">
-        <div class="container" style="width: 328px;"><img class="rounded-circle" src="assets/img/rdbo.png" width="128px" style="border-radius: 0px;margin-bottom: 20px;border: 2px solid #525252 ;">
-            <h1 style="width: 330px;font-size: 32px;color: rgb(255,94,84);">Hobbyist Coder and <br>Reverse Engineer</h1>
+    <div class="row" id="main" style="height: 100%;width: 100%;margin: 0px;">
+        <div class="col-3 text-center" id="author"><img class="rounded-circle" src="assets/img/rdbo.png" width="128px" style="border: 4px solid rgb(54,55,55);margin-bottom: 15px;">
+            <div class="container" style="width: 210px;">
+                <p style="font-size: 20px;color: rgb(255,255,255);">Hobbyist coder and reverse engineer</p>
+            </div>
         </div>
-    </section>
-    <section class="text-center" id="highlight" style="background: #000000;">
-        <div class="text-center" style="margin-top: 25px;margin-bottom: 25px;">
-            <h1 style="color: rgb(251,158,20);">Project Hightlight</h1><i class="fa fa-star" style="color: rgb(251,158,20);font-size: 32px;"></i></div>
-        <div class="container text-center" style="width: 512px;margin-bottom: 50px;"><a href="https://github.com/rdbo/libmem" target="_blank"><i class="fa fa-github" style="font-size: 72px;color: rgb(0,87,255);"></i><h1 style="color: rgb(255,255,255);">libmem</h1></a>
-            <p style="color: rgb(140,140,140);">A memory hacking library written in C. Compatible with Windows/Linux, x86/x64, Internal/External, C/C++.</p>
+        <div class="col-9 text-center" id="content">
+            <h1 style="color: #ff5050;">Welcome</h1>
+            <div id="menu-list" style="margin-top: 25px;"><a href="index.html"><i class="fa fa-home" data-bs-hover-animate="pulse"></i></a><a href="projects.html"><i class="fa fa-files-o" data-bs-hover-animate="pulse"></i></a><a href="about.html"><i class="fa fa-info" data-bs-hover-animate="pulse"></i></a></div>
         </div>
-    </section>
-    <div class="footer-basic" style="background: rgb(0,0,0);">
-        <footer>
-            <p class="copyright">rdbo © 2020</p>
-        </footer>
     </div>
+    <section class="text-center" id="main-footer" style="padding-top: 25px;color: rgb(255,255,255);padding-bottom: 25px;">
+        <p>rdbo © 2020</p>
+    </section>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
 </body>
 
 </html>

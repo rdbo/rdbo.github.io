@@ -1,57 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html style="height: 100%;width: 100%;">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>github_website</title>
+    <title>rdbo's github website</title>
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/rdbo.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/rdbo.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/rdbo.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/rdbo.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/rdbo.png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu+Mono">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body style="font-family: Ubuntu;background: rgb(0,0,0);">
-    <nav class="navbar navbar-light navbar-expand-md sticky-top" id="main-navbar" style="font-family: Ubuntu Mono;background: #0e0c0c;opacity: 0.80;">
-        <div class="container-fluid"><a class="navbar-brand" href="index.html" style="color: rgba(255,60,60,0.9);">home</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+<body style="font-family: Ubuntu;background: rgb(0,0,0);height: 100%;width: 100%;">
+    <nav class="navbar navbar-light navbar-expand-md sticky-top" id="main-nav" style="background: #1b1b1b;opacity: 0.80;width: 100%;">
+        <div class="container-fluid"><a class="navbar-brand" href="index.html" style="color: #ff5050;"><strong>home</strong></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" style="background: #303030;border: 2px solid rgba(255,255,255,0.5) ;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div
                 class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav">
-                    <li class="nav-item"><a class="nav-link active" href="projects.html" style="color: rgba(255,60,60,0.9);">projects</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="about.html" style="color: rgba(255,60,60,0.9);">about</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="projects.html">projects</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">about</a></li>
                 </ul>
         </div>
         </div>
     </nav>
-    <section id="project-list">
-        <h1 class="text-center" style="margin-top: 10px;color: rgb(0,128,255);">&nbsp; &nbsp;Projects</h1>
-        <ul class="text-center" style="color: rgba(0,128,255,0);font-size: 18px;">
-            <li class="text-center d-lg-flex justify-content-lg-center"><a href="#">libmem (C/C++)</a></li>
-            <li><a href="#">Memory (C++)</a></li>
-            <li><a href="#">Half-Life: Source Multihack (C++)</a></li>
-            <li><a href="#">Half-Life 2 Multihack (C++)</a></li>
-            <li><a href="#">Expression Parser for Windows (C++)</a></li>
-            <li><a href="#">Expression Parser for Linux (C++)</a></li>
-            <li><a href="#">multiscanner.py (Python)</a></li>
-            <li><a href="#">shredder.py (Python)</a></li>
-            <li><a href="#">arp_spoofer.py (Python)</a></li>
-            <li><a href="#">Discord Bot (Python)</a></li>
-            <li><a href="#">Teams-Helper (Javascript)</a></li>
-            <li><a href="#">Teams-JS (JavaScript)</a></li>
-            <li><a href="#">Crackmes</a></li>
-            <li><a href="#">Preferences</a></li>
-        </ul>
-    </section>
-    <div class="footer-basic" style="background: rgb(0,0,0);">
-        <footer>
-            <p class="copyright">rdbo © 2020</p>
-        </footer>
+    <div class="row" id="main" style="height: 100%;width: 100%;margin: 0px;">
+        <div class="col-3 text-center" id="author"><img class="rounded-circle" src="assets/img/rdbo.png" width="128px" style="border: 4px solid rgb(54,55,55);margin-bottom: 15px;">
+            <div class="container" style="width: 210px;">
+                <p style="font-size: 20px;color: rgb(255,255,255);">Hobbyist coder and reverse engineer</p>
+            </div>
+        </div>
+        <div class="col-9 text-center" id="content">
+            <h1 style="color: #ff5050;">Projects</h1>
+            <ul class="list-unstyled" id="project-list">
+                <li><a href="https://github.com/rdbo/libmem" target="_blank">libmem (C/C++)</a></li>
+                <li><a href="https://github.com/rdbo/Memory" target="_blank">Memory (C++)</a></li>
+                <li><a href="https://github.com/rdbo/Half-Life-Source-Multihack" target="_blank">Half-Life: Source Multihack</a></li>
+                <li><a href="https://github.com/rdbo/Half-Life-2-Multihack" target="_blank">Half-Life 2 Multihack</a></li>
+                <li><a href="https://github.com/rdbo/ExpressionParser-GUI" target="_blank">Expression Parser for Windows (C++)</a></li>
+                <li><a href="https://github.com/rdbo/ExpressionParser-GUI-Allegro5" target="_blank">Expression Parser for Linux (C++)</a></li>
+                <li><a href="https://github.com/rdbo/multiscanner.py" target="_blank">multiscanner.py (Python)</a></li>
+                <li><a href="https://github.com/rdbo/arp_spoofer.py" target="_blank">arp_spoofer.py (Python)</a></li>
+                <li><a href="https://github.com/rdbo/shredder.py" target="_blank">shredder.py (Python)</a></li>
+                <li><a href="https://github.com/rdbo/Discord-Bot" target="_blank">Discord Bot (Python)</a></li>
+                <li><a href="https://github.com/rdbo/teams-helper" target="_blank">Teams-Helper (Javascript)</a></li>
+                <li><a href="https://github.com/rdbo/teams-js" target="_blank">Teams-JS (Javascript)</a></li>
+                <li><a href="https://github.com/rdbo/crackmes" target="_blank">Crackmes</a></li>
+                <li><a href="https://github.com/rdbo/Preferences" target="_blank">Preferences</a></li>
+            </ul>
+        </div>
     </div>
+    <section class="text-center" id="main-footer" style="padding-top: 25px;color: rgb(255,255,255);padding-bottom: 25px;">
+        <p>rdbo © 2020</p>
+    </section>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
 </body>
 
 </html>
